@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/imgs/favicon.ico" type="image/x-icon">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <div id="hamburguer">
+            <div class="linha"></div>
+            <div class="linha"></div>
+            <div class="linha"></div>
+        </div>
+
+        <ul id="menu">
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-house"></i>
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-user"></i>
+                    Apresentação
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-code"></i>
+                    Projetos
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-money-bill"></i>
+                    Orçamento
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Valorant Coaching</h1>
+        <span>William Huang</span>
+        <span>Gabriel Campello</span>
+        <a href="#" class="button">saiba mais</a>
+    </header>
+
+    <section class="section-presentation">
+        <img class="avatar_Camps" src="https://github.com/GabrielCampello.png" alt="avatar do Camps">
+        <img class="avatar_Uiu" src="https://github.com/imwilliamhuang.png" alt="avatar do Uiu">
+        <div>
+            <h2>Jogando Valorant desde o Beta</h2>
+            <p>Somos radiantes e estamos dispostos a ajudar os jogadores a melhorar!</p>
+            <a href="#" class="button">ver projetos</a>
+        </div>
+    </section>
+
+    <section id="section-projects">
+        <h2>Projetos</h2>
+        <ul>
+            <li>
+                <div class="card-image">
+                    <img src="./assets/imgs/haven.png" alt="">
+                </div>
+                <div class="card-info">
+                    <h3>Haven</h3>
+                    <h4>Lineups, táticas</h4>
+                    <a href="" class="button">saiba mais</a>
+                </div>
+            </li>
+            <li>
+                <div class="card-image">
+                    <img src="./assets/imgs/ascent.png" alt="">
+                </div>
+                <div class="card-info">
+                    <h3>Ascent</h3>
+                    <h4>Lineups, táticas</h4>
+                    <a href="" class="button">saiba mais</a>
+                </div>
+            </li>
+            <li>
+                <div class="card-image">
+                    <img src="./assets/imgs/fracture.png" alt="">
+                </div>
+                <div class="card-info">
+                    <h3>Fracture</h3>
+                    <h4>Lineups, táticas</h4>
+                    <a href="" class="button">saiba mais</a>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section id="section-budged">
+        <form action="#">
+            <h4>Orçamento</h4>
+            <label for="qtde">Qtde de aulas</label>
+            <input type="number" id="qtde" min="1" value="1">
+            <label for="js">Aula com ambos os coaches simultaneamente?</label>
+            <input type="checkbox" id="js">
+            <label for="layout">Qual elo está almejando?</label>
+            <div>
+                <input type="radio" id="layout-sim" name="layout">
+                <label for="layout-sim">ascendente ---- radiante</label>
+                <input type="radio" id="layout-nao" name="layout">
+                <label for="layout-nao">ferro ---- diamante</label>
+            </div>
+            <label for="prazo">Prazo para atingir a meta</label>
+            <input type="range" id="prazo" min="1" max="10">
+            <output id="preco">R$ 100,00</output>
+
+        </form>
+    </section>
+
+<script src="./assets/js/script.js"></script>
+<script src="./assets/js/menu.js"></script>
+</body>
+
+</html>
